@@ -42,13 +42,12 @@
 
 /*---------------------------*/
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
     .info-box{
         flex-direction: column-reverse;
     }
-    .info-box-small{
-        /* align-items:stretch;
-        justify-content: space-around; */
+    .info-box-medium{
+        flex-direction: column;
     }
 }
 
@@ -66,21 +65,8 @@ body {
 
 #map-container {
     position: relative;
-    /* max-width: 800px; */
     width: 100%;
 }
-
-/* #map {
-    width: 100%;
-    height: auto;
-} */
-
-/* .region {
-    fill: #4CAF50;
-    stroke: #ffffff;
-    stroke-width: 1px;
-    transition: fill 0.3s ease;
-} */
 
 .region {
     fill: #2A2E32;
@@ -88,14 +74,23 @@ body {
 }
 
 #region-info {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    display: none;
+    position: absolute; /* Positioned relative to .svg-container */
+    top: 5%;           /* Adjust position */
+    left: 50%;
+    transform: translateX(-50%); /* Center horizontally */
+    text-align: center;
+    pointer-events: none; /* Allows interaction with the SVG underneath */
+}
+
+#region-info p {
+    margin: 0;
+    font-size: clamp(12px, 3vw, 35px); /* Responsive font size: min 12px, max 24px */
+    font-weight: bold;
+    color: white; /* Text color */
+}
+
+.region-name{
+    font-size: 0.2rem;
 }
 
 #Forgotten-Crossroads{
@@ -156,20 +151,8 @@ body {
     background-color: black;
 }
 
-#Forgotten-Crossroads-Info{
-    display: block;
-    
-}
-
-
-#Greenpath-Info{
+#Forgotten-Crossroads-Info, #Greenpath-Info, #Crystal-Peak-Info, #Fungal-Wastes-Info, #City-of-Tears-Info, #Greenpath-Info,#Deepnest-Info,#Queen-Garden-Info, #Fog-Canyon-Info, #Crystal-Peak-Info, #Kingdom-Edge-Info, #Royal-Waterways-Info, #Ancient-Basin-Info, #Resting-Grounds-Info,#The-Hive-Info {
     display: none;
-    color: red;
-}
-
-#Crystal-Peak-Info{
-    display: none;
-    color: white;
 }
 
 #main-logo{
@@ -246,6 +229,7 @@ body {
     border-color: white;
     border: solid 2px;
     gap: 20px;
+    width: 90%;
     /* margin: 40px; */
 }
 
@@ -267,7 +251,6 @@ body {
 
 .info-box-medium{
     display: flex;
-    flex-direction: row;
     align-items:flex-start;
     justify-content: center;
     padding: 30px;
@@ -305,4 +288,23 @@ body {
 
 .info-box-content-small-3{
     overflow: scroll;
+    width: 100%;
+}
+
+.info-box-reference{
+   
+    padding: 30px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 2px;
+    gap: 20px;
+}
+
+.image-container-board, .image-container-lore{
+    width: 100%;
+}
+
+.board-img, .lore-img{
+    width: 100%;
 }
