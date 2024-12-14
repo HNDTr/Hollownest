@@ -48,10 +48,30 @@ body {
 } */
 
 #Forgotten-Crossroads{
-    transform: translate(80px, -2px) scale(0.1);
+    transform: translate(70px, 5px) scale(0.2);
 
 }
 
 #Fungal-Wastes{
-    transform: translate(75px, 9px) scale(0.1); 
+    transform: translate(59.5px, 26.8px) scale(0.2); 
+}
+
+#City-of-Tears{
+    transform: translate(93px,24.4px) scale(0.23); 
+}
+
+#Greenpath{
+    transform: translate(16.5px,-15.5px) scale(0.3); 
+}
+
+#Deepnest{
+    transform: translate(19px,19px) scale(0.3); 
+}
+
+#Queen-Garden{
+    transform: translate(30px,-3px) scale(0.3); 
+}
+
+#Fog-Canyon{
+    transform: translate(44.5px,6.7px) scale(0.23); 
 }
