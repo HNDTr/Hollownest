@@ -71,8 +71,8 @@ body {
     transition: fill 0.3s ease;
 } */
 
-.region:hover {
-    fill: #45a049;
+.region {
+    fill: #808080;
     cursor: pointer;
 }
 
@@ -89,12 +89,13 @@ body {
 
 #Forgotten-Crossroads{
     transform: translate(60px, 5px) scale(0.2);
-
 }
+
 
 #Fungal-Wastes{
     transform: translate(49.5px, 26.8px) scale(0.2); 
 }
+
 
 #City-of-Tears{
     transform: translate(83px,24.4px) scale(0.23); 
