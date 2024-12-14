@@ -51,6 +51,7 @@ body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
     background-color: black;
+    flex-direction: column;
 }
 
 #map-container {
@@ -72,7 +73,7 @@ body {
 } */
 
 .region {
-    fill: #808080;
+    fill: #2A2E32;
     cursor: pointer;
 }
 
@@ -154,4 +155,40 @@ body {
 #Greenpath-Info{
     display: none;
     color: red;
+}
+
+#Crystal-Peak-Info{
+    display: none;
+    color: white;
+}
+
+#main-logo{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.logo-container{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    width: 20%;  /* Takes percent width of the parent element */
+    max-width: 100%; /* Prevents it from exceeding the parent's width */
+    height: auto;  /* Allows the height to adjust based on the content */
+    /*max-width: 100%;  */
+}
+
+.symbol-container{
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    width: 15%;
+    max-width: 100%; /* Prevents it from exceeding the parent's width */
+    height: auto;  /* Allows the height to adjust based on the content */
+
+}
+
+.Symbol{
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
 }
