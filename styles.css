@@ -24,7 +24,7 @@ body {
     height: auto;
 } */
 
-/* .country {
+/* .region {
     fill: #4CAF50;
     stroke: #ffffff;
     stroke-width: 1px;
@@ -36,7 +36,7 @@ body {
     cursor: pointer;
 }
 
-/* #country-info {
+#region-info {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -45,33 +45,57 @@ body {
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
     display: none;
-} */
+}
 
 #Forgotten-Crossroads{
-    transform: translate(70px, 5px) scale(0.2);
+    transform: translate(60px, 5px) scale(0.2);
 
 }
 
 #Fungal-Wastes{
-    transform: translate(59.5px, 26.8px) scale(0.2); 
+    transform: translate(49.5px, 26.8px) scale(0.2); 
 }
 
 #City-of-Tears{
-    transform: translate(93px,24.4px) scale(0.23); 
+    transform: translate(83px,24.4px) scale(0.23); 
 }
 
 #Greenpath{
-    transform: translate(16.5px,-15.5px) scale(0.3); 
+    transform: translate(6.5px,-15.5px) scale(0.3); 
 }
 
 #Deepnest{
-    transform: translate(19px,19px) scale(0.3); 
+    transform: translate(9px,19px) scale(0.3); 
 }
 
 #Queen-Garden{
-    transform: translate(30px,-3px) scale(0.3); 
+    transform: translate(20px,-3px) scale(0.3); 
 }
 
 #Fog-Canyon{
-    transform: translate(44.5px,6.7px) scale(0.23); 
+    transform: translate(34.5px,6.7px) scale(0.23); 
+}
+
+#Crystal-Peak{
+    transform: translate(45.5px,-4.7px) scale(0.4); 
+}
+
+#Kingdom-Edge{
+    transform: translate(25.5px,-13.7px) scale(0.45);
+}
+
+#Royal-Waterways{
+    transform: translate(40.5px,-15.7px) scale(0.45);
+}
+
+#Ancient-Basin{
+    transform: translate(50.5px,-3.9px) scale(0.4);
+}
+
+#Resting-Grounds{
+    transform: translate(50.5px,-3.9px) scale(0.38);
+}
+
+#The-Hive{
+    transform: translate(75.5px, 18.9px) scale(0.3);
 }

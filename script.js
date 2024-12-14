@@ -1,15 +1,15 @@
-document.querySelectorAll('.country').forEach(country => {
-    country.addEventListener('mouseover', function() {
-        const countryName = this.getAttribute('data-name');
-        // const countryInfo = document.getElementById('country-info');
-        // const countryNameElement = document.getElementById('country-name');
+document.querySelectorAll('.region').forEach(region => {
+    region.addEventListener('mouseover', function() {
+        const regionName = this.getAttribute('data-name');
+        const regionInfo = document.querySelector('#region-info');
+        const regionNameElement = document.querySelector('#region-name');
         
-        countryNameElement.textContent = countryName;
-        countryInfo.style.display = 'block';
+        regionNameElement.textContent = regionName;
+        regionInfo.style.display = 'block';
     });
 
-    country.addEventListener('mouseout', function() {
-        const countryInfo = document.getElementById('country-info');
-        countryInfo.style.display = 'none';
+    region.addEventListener('mouseout', function() {
+        const regionInfo = document.querySelector('#region-info');
+        regionInfo.style.display = 'none';
     });
 });
