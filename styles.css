@@ -42,6 +42,16 @@
 
 /*---------------------------*/
 
+@media (max-width: 1000px) {
+    .info-box{
+        flex-direction: column-reverse;
+    }
+    .info-box-small{
+        /* align-items:stretch;
+        justify-content: space-around; */
+    }
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -147,7 +157,7 @@ body {
 }
 
 #Forgotten-Crossroads-Info{
-    display: none;
+    display: block;
     color: white;
 }
 
@@ -191,4 +201,82 @@ body {
     width: 100%;
     height: auto;
     object-fit: contain; 
+}
+
+
+/* Info section */
+.info-section{
+    margin-top: 30px;
+}
+
+.info-container{
+    margin: 2rem;
+    background: #2A2E32;
+    border-radius: 5px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.info-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 2px;
+    gap: 20px;
+    /* margin: 40px; */
+}
+
+.info-box-small{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 2px;
+    gap: 20px;
+    /* margin: 40px; */
+}
+
+.info-box-content {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 70%;
+    height: auto;
+}
+
+.info-box-container-two{
+    display: flex;
+    gap: 40px;
+}
+
+.info-box-medium{
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: center;
+    padding: 30px;
+    background: #D9D9D9;
+    border-radius: 5px;
+    border-color: white;
+    border: solid 2px;
+    gap: 20px;
+    /* margin: 40px; */
 }
