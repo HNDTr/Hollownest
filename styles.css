@@ -1,0 +1,57 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#map-container {
+    position: relative;
+    /* max-width: 800px; */
+    width: 100%;
+}
+
+/* #map {
+    width: 100%;
+    height: auto;
+} */
+
+/* .country {
+    fill: #4CAF50;
+    stroke: #ffffff;
+    stroke-width: 1px;
+    transition: fill 0.3s ease;
+} */
+
+.region:hover {
+    fill: #45a049;
+    cursor: pointer;
+}
+
+/* #country-info {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    display: none;
+} */
+
+#Forgotten-Crossroads{
+    transform: translate(80px, -2px) scale(0.1);
+
+}
+
+#Fungal-Wastes{
+    transform: translate(75px, 9px) scale(0.1); 
+}
